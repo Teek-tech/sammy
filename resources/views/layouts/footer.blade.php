@@ -3,8 +3,10 @@
       <div class="row mb-5">
         <div class="col-sm-12 col-md">
           <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2 logo"><a href="#">Counselor</a></h2>
-            <p>Far far away, behind the word mountains, far from the countries.</p>
+            <h2 class="ftco-heading-2 logo"><a href="about">Sammy Badaki</a></h2>
+            <p>Everyone deserves remarkable results. I have seen and worked with people from all walks of 
+            life who have transited from a life of survival to a lifestyle of sustainable success 
+            and on to a life of significance.</p>
             <ul class="ftco-footer-social list-unstyled mt-2">
               <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
               <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -16,35 +18,13 @@
           <div class="ftco-footer-widget mb-4 ml-md-4">
             <h2 class="ftco-heading-2">Explore</h2>
             <ul class="list-unstyled">
-              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>About</a></li>
-              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
-              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>What We Do</a></li>
-              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Plans &amp; Pricing</a></li>
+              <li><a href="about"><span class="fa fa-chevron-right mr-2"></span>About</a></li>
+              <li><a href="contact"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
+              <li><a href="services"><span class="fa fa-chevron-right mr-2"></span>Services</a></li>
             </ul>
           </div>
         </div>
-        <div class="col-sm-12 col-md">
-          <div class="ftco-footer-widget mb-4 ml-md-4">
-            <h2 class="ftco-heading-2">Legal</h2>
-            <ul class="list-unstyled">
-              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Join us</a></li>
-              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Blog</a></li>
-              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Privacy &amp; Policy</a></li>
-              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Term &amp; Conditions</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md">
-           <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2">Company</h2>
-            <ul class="list-unstyled">
-              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>About Us</a></li>
-              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Blog</a></li>
-              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
-              <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Careers</a></li>
-            </ul>
-          </div>
-        </div>
+        
         <div class="col-sm-12 col-md">
           <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Have a Questions?</h2>

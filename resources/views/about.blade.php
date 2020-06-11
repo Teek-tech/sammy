@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Counselor - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Sammy Badaki Consult | About</title>
    @include('layouts.header')
   </head>
   <body>
@@ -18,31 +18,44 @@
         </div>
       </div>
     </section>
+		<br>
 
-    <section class="ftco-section ftco-no-pb ftco-no-pt">
+
+    
+	<section class="ftco-section ftco-no-pb ftco-no-pt">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(images/about-1.jpg);">
-					</div>
+					
 					<div class="col-md-6 wrap-about px-md-5 ftco-animate py-5 bg-light">
-	          <div class="heading-section py-md-5">
-	          	<span class="subheading">Welcome to Counselor</span>
-	            <h2 class="mb-4">Best Counseling Funding Network Worldwide.</h2>
+	          <div class="heading-section">
+	            <span class="subheading">Sammy Badaki</span>
+	            <h2 class="mb-2">Business and Life Coach</h2>
+				<hr>
+	            <p>Sammy Badaki is a US based results (life and business) coach, first class conversation connoisseur, 
+				business executive and global investor.</p>
 
-	            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-	            <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
+				<p> Blessed with an unusual gift of leveraging heart-to-heart conversations 
+				that speaks to the heart of  individual and corporate scenarios, and an uncommon insight that leads
+				 to remarkable results. </p> 
 
-	            <a href="https://vimeo.com/45830194" class="play-video popup-vimeo d-flex align-items-center mt-4">
-	            	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-play"></span></div>
-	            	<span class="watch">Watch Our Consultant Video</span>
-	            </a>
+				 <p>Sammy is well known for helping clients
+				 achieve remarkable life and business results through his proprietary RDI [Results-Design Intelligence] coaching program. </p>
+
+	            <p>He is the founder and CEO of Sammy Badaki Inc., an advisory firm focused on helping executives,
+				 leaders and corporations achieve remarkable results.</p>
+				 <p> Sammy is the author of the upcoming bestselling Commerce  of Conversation: 
+				How To Thrive in the Trillion Dollar Talk Trade and Action-Acumen: The Science of Getting [Instant] Results.</p>
 	          </div>
 
+					</div>
+					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(images/about-1.jpg);">
 					</div>
 				</div>
 			</div>
 		</section>
 
+			
+{{-- 
 		<section class="ftco-counter ftco-section ftco-no-pt ftco-no-pb img bg-light" id="section-counter">
     	<div class="container">
     		<div class="row">
@@ -80,10 +93,73 @@
           </div>
         </div>
     	</div>
-    </section>
+    </section> --}}
 
-  
-    <section class="ftco-section testimony-section">
+	<br>
+	<br>
+
+	<section class="ftco-section " style="background-color:">
+		<div class="container" >
+         	<div style="text-align: left;">
+					<h2 class="" style="color :#DAA520">Sammy Badaki</h2> 
+					<h4>Entrepreneur</h4>
+					<h5 style="">He is the founder and CEO of Sammy Badaki Inc., an advisory firm focused on helping executives, leaders and 
+				corporations achieve remarkable results. Sammy is the author of the upcoming bestselling 
+				Commerce  of Conversation: How To Thrive in the Trillion Dollar Talk Trade and Action-Acumen: 
+				The Science of Getting [Instant] Results.</h5>
+          	</div>
+
+
+		</div>	
+	</section>
+
+	<br>
+	<br>
+
+	<section class="ftco-section " style="background-color:black">
+		<div class="container" >
+			<div class="row justify-content-center mb-5">
+         		 <div class="col-md-8 text-center heading-section ftco-animate">
+					{{-- <span class="subheading">Our Services</span>
+					<h2 class="mb-3" style="color :gold">We Can Help You With This Situation</h2> --}}
+          		</div>
+			</div>
+        
+
+			<div class="row">
+				<div class="col-md-1 img img-3 d-flex justify-content-center align-items-center">
+				</div>
+
+				<div class="col-md-4 img img-3 d-flex justify-content-center align-items-center" 
+					style="background-image: url(images/about-1.jpg);">
+				</div>
+
+				<div class="col-md-6 wrap-about px-md-5 ftco-animate py-5 bg-light">
+	    			<div class="heading-section py-md-5">
+	          		<span class="subheading">Sammy Badaki</span>
+	            	<h4 class="mb-2">Family Man</h4>
+					<hr>
+	            	<p>Sammy lives in Atlanta Georgia with his wife, Sable, founder of She Works: The Global Business Women Exchange and
+				 	they are blessed with two beautiful daughters, Danielle
+					  and Grace. Thinking about remarkable results in life and business?.</p>
+					  <p><a href="contact" class="btn btn-primary py-3 px-4">Contact Sammy</a>
+
+	          		</div>
+
+				</div>
+					
+
+					<div class="col-md-1 img img-3 d-flex justify-content-center align-items-center">
+					</div>
+			</div>
+		</div>	
+	
+	</section>
+
+	<br>
+	<br>
+
+    {{-- <section class="ftco-section testimony-section">
     	<div class="img img-bg border" style="background-image: url(images/bg_4.jpg);"></div>
     	<div class="overlay"></div>
       <div class="container">
@@ -175,60 +251,16 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> --}}
+
+	<br>
+	<br>
+
+
+
+		@include('layouts.contactForm')
 		
-		<section class="ftco-appointment ftco-section img" style="background-image: url(images/bg_2.jpg);">
-			<div class="overlay"></div>
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-md-6 half ftco-animate">
-    				<h2 class="mb-4">Send a Message &amp; Get in touch!</h2>
-    				<form action="#" class="appointment">
-    					<div class="row">
-								<div class="col-md-6">
-									<div class="form-group">
-			              <input type="text" class="form-control" placeholder="Your Name">
-			            </div>
-								</div>
-								<div class="col-md-6">
-									<div class="form-group">
-			              <input type="text" class="form-control" placeholder="Email">
-			            </div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-			    					<div class="form-field">
-	          					<div class="select-wrap">
-	                      <div class="icon"><span class="fa fa-chevron-down"></span></div>
-	                      <select name="" id="" class="form-control">
-	                      	<option value="">Services</option>
-	                        <option value="">Relation Problem</option>
-	                        <option value="">Couple Counseling</option>
-	                        <option value="">Depression Treatment</option>
-	                        <option value="">Family Problem</option>
-	                        <option value="">Personal Problem</option>
-	                        <option value="">Business Problem</option>
-	                      </select>
-	                    </div>
-			              </div>
-			    				</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-			              <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-			            </div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group">
-			              <input type="submit" value="Send message" class="btn btn-primary py-3 px-4">
-			            </div>
-								</div>
-    					</div>
-	          </form>
-    			</div>
-    		</div>
-    	</div>
-    </section>
+		
 
     @include('layouts.footer')
   </body>
