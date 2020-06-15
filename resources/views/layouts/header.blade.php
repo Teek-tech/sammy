@@ -13,4 +13,5 @@
 
 <link rel="stylesheet" href="css/flaticon.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/custom.css">
 </head>

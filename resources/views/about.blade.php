@@ -7,13 +7,15 @@
   <body>
     @include('layouts.topnav')
     
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_5.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/serv1.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate mb-5 text-center">
-          	<p class="breadcrumbs mb-0"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>About us <i class="fa fa-chevron-right"></i></span></p>
-            <h1 class="mb-0 bread">About Us</h1>
+          	<p class="breadcrumbs mb-0">
+				<!--<span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> --><span>About us</span>
+			</p>
+            <h1 class="mb-0 bread">Who we are</h1>
           </div>
         </div>
       </div>
@@ -26,10 +28,10 @@
 			<div class="container">
 				<div class="row">
 					
-					<div class="col-md-6 wrap-about px-md-5 ftco-animate py-5 bg-light">
+					<div class="col-md-6 wrap-about px-md-5 ftco-animate py-5">
 	          <div class="heading-section">
 	            <span class="subheading">Sammy Badaki</span>
-	            <h2 class="mb-2">Business and Life Coach</h2>
+	            <h2 class="mb-2 text-dark">Business and Life Coach</h2>
 				<hr>
 	            <p>Sammy Badaki is a US based results (life and business) coach, first class conversation connoisseur, 
 				business executive and global investor.</p>
@@ -48,7 +50,7 @@
 	          </div>
 
 					</div>
-					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(images/about-1.jpg);">
+					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(images/staff-2.jpg);">
 					</div>
 				</div>
 			</div>
@@ -102,8 +104,8 @@
 		<div class="container" >
          	<div style="text-align: left;">
 					<h2 class="" style="color :#DAA520">Sammy Badaki</h2> 
-					<h4>Entrepreneur</h4>
-					<h5 style="">He is the founder and CEO of Sammy Badaki Inc., an advisory firm focused on helping executives, leaders and 
+					<h4 class="sec-font">Entrepreneur</h4>
+					<h5 class="sec-font">He is the founder and CEO of Sammy Badaki Inc., an advisory firm focused on helping executives, leaders and 
 				corporations achieve remarkable results. Sammy is the author of the upcoming bestselling 
 				Commerce  of Conversation: How To Thrive in the Trillion Dollar Talk Trade and Action-Acumen: 
 				The Science of Getting [Instant] Results.</h5>
@@ -131,7 +133,7 @@
 				</div>
 
 				<div class="col-md-4 img img-3 d-flex justify-content-center align-items-center" 
-					style="background-image: url(images/about-1.jpg);">
+					style="background-image: url(images/staff-2.jpg);">
 				</div>
 
 				<div class="col-md-6 wrap-about px-md-5 ftco-animate py-5 bg-light">
@@ -142,7 +144,7 @@
 	            	<p>Sammy lives in Atlanta Georgia with his wife, Sable, founder of She Works: The Global Business Women Exchange and
 				 	they are blessed with two beautiful daughters, Danielle
 					  and Grace. Thinking about remarkable results in life and business?.</p>
-					  <p><a href="contact" class="btn btn-primary py-3 px-4">Contact Sammy</a>
+					  <p><a href="contact" class="btn new-btn py-3 px-4">Contact Sammy</a>
 
 	          		</div>
 

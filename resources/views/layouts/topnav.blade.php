@@ -1,6 +1,6 @@
 <div class="wrap">
     <div class="container">
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-md-6 d-flex align-items-center">
                 <p class="mb-0 phone pl-md-2">
                     <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> +00 1234 567</a> 
@@ -14,7 +14,7 @@
                     <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
                     <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
                 </p>
-        </div>
+        </div> --}}
             </div>
         </div>
     </div>

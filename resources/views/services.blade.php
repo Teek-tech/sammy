@@ -8,13 +8,15 @@
 
     @include('layouts.topnav')
   
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_5.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/serv5.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate mb-5 text-center">
-          	<p class="breadcrumbs mb-0"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Services <i class="fa fa-chevron-right"></i></span></p>
-            <h1 class="mb-0 bread">Services</h1>
+          	<p class="breadcrumbs mb-0">
+				<!-- <span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> --><span>Services</span>
+			</p>
+            <h1 class="mb-0 bread">What We Do</h1>
           </div>
         </div>
       </div>
@@ -25,7 +27,7 @@
 		<div class="container" >
 			<div class="row justify-content-center">
          		 <div class="col-md-8 text-center heading-section ftco-animate">
-					<h2 class="" style="color :#DAA520">Where Your Success Starts</h2>
+					<h2 class="text-dark">Where Your Success Starts</h2>
           		</div>
 			</div>
 			<div >
@@ -111,7 +113,7 @@
                   <span class="f" aria-hidden="true"></span>
                 </div>
                 <div class="ser-sevice-grid">
-                  <h4 class="pb-3" style="color :#DAA520">Business Trainings</h4>
+                  <h4 class="pb-3 text-dark">Business Trainings</h4>
                   <p>Armed with wide range of business skills from project management and negotiation to leadership skills, 
 				  the coach’s role is to help you design a vision for your business that aligns with your values and goals for your life.</p>
                 </div>
@@ -121,7 +123,7 @@
                   <span class="" aria-hidden="true"></span>
                 </div>
                 <div class="ser-sevice-grid ">
-                  <h4 class="pb-3" style="color :#DAA520">Personal life Coaching</h4>
+                  <h4 class="pb-3 text-dark">Personal life Coaching</h4>
                   <p>A firm understanding of the principles of success and their application.
 				   A life coach teaches others how they can put these principles to work for them in their career or personal life.</p>
                 </div>
@@ -131,7 +133,7 @@
                   <span class="" aria-hidden="true"></span>
                 </div>
                 <div class="ser-sevice-grid">
-                  <h4 class="pb-3" style="color :#DAA520">Corporate Traingings</h4>
+                  <h4 class="pb-3 text-dark">Corporate Traingings</h4>
                   <p>the strategy is providing learners, internal and external to your organization,
 				   with the skills and knowledge they need to be successful.</p>
                 </div>
@@ -141,7 +143,7 @@
                   <span class="" aria-hidden="true"></span>
                 </div>
                 <div class="ser-sevice-grid text-center">
-                  <h4 class="pb-3" style="color :#DAA520">Speaking Engagements</h4>
+                  <h4 class="pb-3 text-dark">Speaking Engagements</h4>
                   <p>An extraordinary coach that communicates the very essence of your desires and speaks to the heart of every
 				   essential issue about your life and transformation.</p>
                 </div>
@@ -150,7 +152,7 @@
 			</div>
           </div>
 		  		<div class=" col-lg-5 col-md-6 img img-3 d-flex justify-content-center align-items-center" 
-					style="background-image: url(images/about-1.jpg);">
+					style="background-image: url(images/staff-2.jpg);">
 				</div>
         </div>
       </div>

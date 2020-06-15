@@ -5,24 +5,92 @@
 @include('layouts.header')
   <body>
 
-  	@include('layouts.topnav')
-    <div class="hero-wrap" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text align-items-center">
-          <div class="col-md-6 ftco-animate d-flex align-items-end">
-          	<div class="text w-100">
-	            <h1 class="mb-4">Sustainable Success Strategies</h1>
-	            <h3 class="mb-4">A brain to pick, an ear to listen and a nudge in the right direction.</h3>
-	            <p><a href="contact" class="btn btn-primary py-3 px-4">Contact us</a> <a href="about" class="btn btn-white py-3 px-4">Read more</a></p>
-            </div>
-          </div>
-          {{-- <a href="https://vimeo.com/45830194" class="img-video popup-vimeo d-flex align-items-center justify-content-center">
-          	<span class="fa fa-play"></span>
-          </a> --}}
-        </div>
-      </div>
-    </div>
+	@include('layouts.topnav')
+    <div class="hero-wrap" style="display: none; background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text align-items-center">
+				<div class="col-md-6 ftco-animate d-flex align-items-end">
+					<div class="text w-100">
+						<h1 class="mb-4">Sustainable Success Strategies</h1>
+						<h3 class="mb-4">A brain to pick, an ear to listen and a nudge in the right direction.</h3>
+						<p>
+							{{-- <a href="contact" class="btn btn-primary py-3 px-4">Contact us</a> --}}
+							<a href="about" class="btn btn-white py-3 px-4">Read more</a>
+						</p>
+					</div>
+				</div>
+				{{-- <a href="https://vimeo.com/45830194" class="img-video popup-vimeo d-flex align-items-center justify-content-center">
+				<span class="fa fa-play"></span>
+				</a> --}}
+			</div>
+		</div>
+	</div>
+	
+	<div id="carouselExampleSlidesOnly" class="carousel slide hero-wrap" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active hero-wrap" style="background-image: url('images/edited_new_bg.jpg');" data-stellar-background-ratio="0.5">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row no-gutters slider-text align-items-center">
+						<div class="col-md-6 ftco-animate d-flex align-items-end">
+							<div class="text w-100">
+								<h1 class="mb-4">Sustainable Success Strategies</h1>
+								<h4 class="mb-4 sec-font text-white">A brain to pick, an ear to listen and a nudge in the right direction.</h4>
+								<p>
+									{{-- <a href="contact" class="btn btn-primary py-3 px-4">Contact us</a> --}}
+									<a href="about" class="btn new-btn">Read more</a>
+								</p>
+							</div>
+						</div>
+						{{-- <a href="https://vimeo.com/45830194" class="img-video popup-vimeo d-flex align-items-center justify-content-center">
+						<span class="fa fa-play"></span>
+						</a> --}}
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item hero-wrap" style="background-image: url('images/edited_new_bg.jpg');" data-stellar-background-ratio="0.5">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row no-gutters slider-text align-items-center">
+						<div class="col-md-6 ftco-animate d-flex align-items-end">
+							<div class="text w-100">
+								<h1 class="mb-4">Sustainable Success Strategies</h1>
+								<h4 class="mb-4 sec-font text-white">A brain to pick, an ear to listen and a nudge in the right direction.</h4>
+								<p>
+									{{-- <a href="contact" class="btn btn-primary py-3 px-4">Contact us</a> --}}
+									<a href="about" class="btn new-btn">Read more</a>
+								</p>
+							</div>
+						</div>
+						{{-- <a href="https://vimeo.com/45830194" class="img-video popup-vimeo d-flex align-items-center justify-content-center">
+						<span class="fa fa-play"></span>
+						</a> --}}
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item hero-wrap" style="background-image: url('images/edited_new_bg.jpg');" data-stellar-background-ratio="0.5">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row no-gutters slider-text align-items-center">
+						<div class="col-md-6 ftco-animate d-flex align-items-end">
+							<div class="text w-100">
+								<h1 class="mb-4">Sustainable Success Strategies</h1>
+								<h4 class="mb-4 sec-font text-white">A brain to pick, an ear to listen and a nudge in the right direction.</h4>
+								<p>
+									{{-- <a href="contact" class="btn btn-primary py-3 px-4">Contact us</a> --}}
+									<a href="about" class="btn new-btn">Read more</a>
+								</p>
+							</div>
+						</div>
+						{{-- <a href="https://vimeo.com/45830194" class="img-video popup-vimeo d-flex align-items-center justify-content-center">
+						<span class="fa fa-play"></span>
+						</a> --}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
     {{-- <section class="ftco-intro">
     	<div class="container">
@@ -69,11 +137,11 @@
 	  <section class="ftco-section ftco-no-pb ftco-no-pt">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(images/about-1.jpg);">
+					<div class="col-md-6 img img-3 d-flex justify-content-center align-items-center" style="background-image: url(images/staff-2.jpg);">
 					</div>
-					<div class="col-md-6 wrap-about px-md-5 ftco-animate py-5 bg-light">
+					<div class="col-md-6 wrap-about px-md-5 ftco-animate py-5">
 	          <div class="heading-section">
-	            <h2 class="mb-4" style="background-color:black; color:white; padding:10px">Business and Life Coaching</h2>
+	            <h2 class="mb-4 text-dark" style="padding:10px">Business and Life Coaching</h2>
 
 	            <p>Having spent more than half of a century’s existence helping leaders and executives 
 					around the world with strategies to bridge the gap between KNOWING and DOING in order to ultimately achieve astonishing results,
@@ -96,7 +164,7 @@
     		<div class="row justify-content-center pb-5">
           <div class="col-md-7 heading-section text-center ftco-animate">
           	<!--span class="subheading">Services</span-->
-            <h2>Why Sammy</h2>
+            <h2 class="text-dark">Why Sammy</h2>
           </div>
         </div>
     		<div class="row">
@@ -108,7 +176,7 @@
 	    						<span class="flaticon-calendar"></span>
 	    					</div>
     					</div>
-    					<h2>Global Business Experience</h2>
+    					<h2 class="text-dark">Global Business Experience</h2>
     					<p>Sammy has done business in 5 continents and across several
 						 industries, helping private and public sector stakeholders get the best value for money</p>
     				</div>
@@ -121,7 +189,7 @@
 	    						<span class="flaticon-qa"></span>
 	    					</div>
     					</div>
-    					<h2>Business Coaching</h2>
+    					<h2 class="text-dark">Business Coaching</h2>
   						<p>Sammy helps top leaders and executives whose impact, lives, 
 						  businesses and roles in society affect millions of people across different ecosystems.</p>
     				</div>
@@ -134,7 +202,7 @@
 	    						<span class="flaticon-checklist"></span>
 	    					</div>
     					</div>
-    					<h2>Results-Design Thinking</h2>
+    					<h2 class="text-dark">Results-Design Thinking</h2>
   						<p>Are you ready for a fresh new perspective that challenges your assumptions,
 						   beliefs and values in order to help you redesign and get desired results?</p>
     				</div>
@@ -150,7 +218,7 @@
 				<div class="row justify-content-center mb-5">
           <div class="col-md-8 text-center heading-section ftco-animate">
           	<span class="subheading">Our Services</span>
-            <h2 class="mb-3">We Can Help You With This Situation</h2>
+            <h2 class="mb-3 text-dark">We Can Help You With This Situation</h2>
           </div>
         </div>
 				<div class="row tabulation mt-4 ftco-animate">
@@ -179,25 +247,25 @@
 					<div class="col-md-8">
 						<div class="tab-content">
 						  <div class="tab-pane container p-0 active" id="services-1">
-						  	<div class="img" style="background-image: url(images/services-1.jpg);"></div>
+						  	<div class="img" style="background-image: url(images/serv1.jpg);"></div>
 						  	<h3><a href="#">Business Training</a></h3>
 						  	<p>Armed with wide range of business skills from project management and negotiation to leadership skills,
 							   the coach’s role is to help you design a vision for your business that aligns with your values and goals for your life.</p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-2">
-						  	<div class="img" style="background-image: url(images/services-2.jpg);"></div>
+						  	<div class="img" style="background-image: url(images/serv2.jpg);"></div>
 						  	<h3><a href="#">Life Coach</a></h3>
 						  	<p>A firm understanding of the principles of success and their application. A life coach 
 							  teaches others how they can put these principles to work for them in their career or personal life. </p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-3">
-						  	<div class="img" style="background-image: url(images/services-3.jpg);"></div>
+						  	<div class="img" style="background-image: url(images/serv3.jpg);"></div>
 						  	<h3><a href="#">Corporate Training</a></h3>
 						  	<p>Gone are the days of ad hoc learning that was only done when it’s absolutely necessary, the strategy is  
 							   providing learners, internal and external to your organization, with the skills and knowledge they need to be successful. </p>
 						  </div>
 						  <div class="tab-pane container p-0 fade" id="services-4">
-						  	<div class="img" style="background-image: url(images/services-4.jpg);"></div>
+						  	<div class="img" style="background-image: url(images/serv4.jpg);"></div>
 						  	<h3><a href="#">Speaking Engagement</a></h3>
 						  	<p>An extraordinary coach that communicates the very essence of your desires 
 							  and speaks to the heart of every essential issue about your life and transformation.</p>
@@ -381,7 +449,7 @@
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 heading-section text-center ftco-animate">
           	<span class="subheading">Blog</span>
-            <h2>Recent Blog</h2>
+            <h2 class="text-dark">Recent Blog</h2>
           </div>
         </div>
         <div class="row d-flex">
