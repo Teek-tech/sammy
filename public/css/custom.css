@@ -12,7 +12,7 @@
     --primary-font: abrilFatface;
     --secondary-font: roboto;
     --white-color: #fff;
-    --yellow-color: #daa520;
+    --yellow-color: #ffcb0f;
     --purple-color: #1e0755;
     --light-blue: #0d75d4;
     --border-radius: 5px;
@@ -28,8 +28,20 @@ p{
     font-family: var(--secondary-font);
 }
 
+.ftco-navbar-light.scrolled .navbar-toggler{
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover, .ftco-navbar-light .navbar-nav > .nav-item.active > a, .ftco-navbar-light.scrolled .nav-item.active > a{
+    color: var(--yellow-color) !important;
+}
+
 .sec-font{
     font-family: var(--secondary-font) !important;
+}
+
+.slider-text{
+    height: 700px;
 }
 
 .slider-text h1{
@@ -56,38 +68,90 @@ p{
     color: var(--yellow-color);
 }
 
+.heading-section .subheading{
+    color: var(--yellow-color);
+}
+
+/* services */
+.services-2 .icon-wrap .number{
+    background: var(--yellow-color);
+}
+
+.services-2:hover .icon-wrap .number span{
+    color: var(--yellow-color);
+}
+
+.services-2:hover .icon, .services-2 .icon:after{
+    background: var(--yellow-color);
+}
+
+/* tabulation */
+.tabulation .nav-pills .nav-item .nav-link.active{
+    background: var(--yellow-color);
+    border: 1px solid var(--yellow-color);
+}
+
+/* testimonial */
+.testimony-wrap .icon, .testimony-section .owl-dots .owl-dot.active{
+    background: var(--yellow-color);
+}
+
+
 .testimony-section .overlay, .ftco-appointment .overlay, .hero-wrap.hero-wrap-2 .overlay{
     background-color: var(--light-blue);
     opacity: 60%;
 }
 
+
+/* blog */
 .blog-entry{
     transition: 1s ease;
     box-shadow: var(--box-shadow);
     border-radius: var(--border-radius);
 }
 
-/* .blog-entry a{
-    border-top-right-radius: var(--border-radius);
-    border-top-left-radius: var(--border-radius);
-} */
-
 .blog-entry h3{
     padding: 5px 10px;
+}
+
+.blog-entry .meta span.day{
+    color: var(--yellow-color);
+}
+
+.blog-entry:hover .meta{
+    background: var(--yellow-color);
+}
+
+.blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active{
+    color: var(--purple-color);
 }
 
 .blog-entry p{
     padding: 5px 15px;
 }
 
+/* contact page */
+.dbox .icon{
+    background: var(--yellow-color);
+}
+
 /* .heading-section h2{
     color: var(--yellow-color);
 } */
 
+/* footer */
+.ftco-footer-social li a{
+    background: var(--yellow-color);
+}
+
+.dbox p a, .contactForm .label{
+    color: var(--yellow-color) !important;
+}
+
 
 @media(min-width: 320px){
     .slider-text h1{
-        font-size: 3em;
+        font-size: 2.5em;
     }
 
     .slider-text h4{
@@ -98,7 +162,7 @@ p{
 
 @media(min-width: 576px){
     .slider-text h1{
-        font-size: 3em;
+        font-size: 2.5em;
     }
 
     .slider-text h4{
@@ -113,6 +177,16 @@ p{
 
     .slider-text h4{
         font-size: 1.3em;
+    }
+}
+
+@media(max-width: 991.98px){
+    .hero-wrap{
+        height: 530px;
+    }
+
+    .slider-text{
+        height: 500px;
     }
 }
 
