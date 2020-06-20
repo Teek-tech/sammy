@@ -28,8 +28,8 @@ p{
     font-family: var(--secondary-font);
 }
 
-.ftco-navbar-light.scrolled .navbar-toggler{
-    color: rgba(255, 255, 255, 0.5) !important;
+.ftco-navbar-light .navbar-toggler, .ftco-navbar-light.scrolled .navbar-toggler{
+    color: var(--white-color) !important;
 }
 
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover, .ftco-navbar-light .navbar-nav > .nav-item.active > a, .ftco-navbar-light.scrolled .nav-item.active > a{
