@@ -30,7 +30,7 @@
 			<div class="" style="text-align: center;">
 					<h3 style="color:grey">"I am glad to welcome you here;  you’re already on the path.
 					 Let’s maximize your time while you are here." </h3>
-					 <p style="color:#DAA520" class="subheading">Sammy Badaki</p>
+					 <p style="color:#ffcb0f" class="subheading">Sammy Badaki</p>
 					</div>
 				
 			</div>

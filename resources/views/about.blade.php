@@ -103,7 +103,7 @@
 	<section class="ftco-section " style="background-color:">
 		<div class="container" >
          	<div style="text-align: left;">
-					<h2 class="" style="color :#DAA520">Sammy Badaki</h2> 
+					<h2 class="" style="color :#343a40">Sammy Badaki</h2> 
 					<h4 class="sec-font">Entrepreneur</h4>
 					<h5 class="sec-font">He is the founder and CEO of Sammy Badaki Inc., an advisory firm focused on helping executives, leaders and 
 				corporations achieve remarkable results. Sammy is the author of the upcoming bestselling 
