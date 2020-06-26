@@ -171,7 +171,7 @@
 			  <div class="col-md-4">
 					<ul class="nav nav-pills nav-fill d-md-flex d-block flex-column">
 					  <li class="nav-item text-left">
-						<a class="nav-link py-4" data-toggle="tab" href="#services-2">Life Results Coaching</a>
+						<a class="nav-link active py-4" data-toggle="tab" href="#services-2">Life Results Coaching</a>
 					  </li>
 					  <li class="nav-item text-left">
 						<a class="nav-link py-4" data-toggle="tab" href="#services-3">Corporate Results Coaching</a>

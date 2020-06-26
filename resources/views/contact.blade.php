@@ -86,13 +86,22 @@
 							<div class="row no-gutters">
 								<div class="col-md-7">
 									<div class="contact-wrap w-100 p-md-5 p-4">
+										@if (session('error'))
+											<div class="alert alert-solid alert-success" role="alert">
+												<button type="button" class="close" data-dismiss="alert" aria-label="close">
+													<span aria-hidden="true">&times;</span>
+													<strong>Success!</strong>{{session('error')}}.
+												</button>
+											</div>
+										@endif
 										<h3 class="mb-4">Contact Us</h3>
-										<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+									<form action="{{route('contact_sammy')}}" method="POST" id="contactForm" name="contactForm" class="contactForm">
+										@csrf
 											<div class="row">
 												<div class="col-md-6">
 													<div class="form-group">
 														<label class="label" for="name">Full Name</label>
-														<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+														<input type="text" class="form-control" name="full_name" id="name" placeholder="First Name & Last Name">
 													</div>
 												</div>
 												<div class="col-md-6"> 
@@ -110,7 +119,7 @@
 												<div class="col-md-12">
 													<div class="form-group">
 														<label class="label" for="#">Message</label>
-														<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message">{{old('message')}}</textarea>
 													</div>
 												</div>
 												<div class="col-md-12">
@@ -134,5 +143,6 @@
 		</section>
 
  @include('layouts.footer')
+ <script src="{{ asset('js/app.js') }}" defer></script>
   </body>
 </html>
