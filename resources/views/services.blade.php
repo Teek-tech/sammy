@@ -183,7 +183,7 @@
 				</div>
 				<div class="col-md-8">
 					<div class="tab-content">
-					  <div class="tab-pane container p-0 fade" id="services-2">
+					  <div class="tab-pane container p-0 active" id="services-2">
 						  <h3><a href="#">Life Results Coaching</a></h3>
 						  <form method="POST" id="contactForm" name="contactForm" class="contactForm">
 							<div class="row">
