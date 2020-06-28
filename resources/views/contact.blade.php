@@ -101,19 +101,19 @@
 												<div class="col-md-6">
 													<div class="form-group">
 														<label class="label" for="name">Full Name</label>
-														<input type="text" class="form-control" name="full_name" id="name" placeholder="First Name & Last Name">
+														<input type="text" class="form-control" name="full_name" id="name" placeholder="First Name & Last Name" value="{{old('full_nmae')}}">
 													</div>
 												</div>
 												<div class="col-md-6"> 
 													<div class="form-group">
 														<label class="label" for="email">Email Address</label>
-														<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+														<input type="email" class="form-control" name="email" id="email" placeholder="Email" value="{{old('email')}}">
 													</div>
 												</div>
 												<div class="col-md-12">
 													<div class="form-group">
 														<label class="label" for="subject">Subject</label>
-														<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+														<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" value="{{old('subject')}}">
 													</div>
 												</div>
 												<div class="col-md-12">
