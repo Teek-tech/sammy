@@ -27,6 +27,11 @@ Route::get('contact', function () {
     return view('contact');
 })->name('contact');
 
+
+
+
+Route::post('contact', 'ContactController@index')->name('contact_sammy');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

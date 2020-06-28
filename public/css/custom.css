@@ -13,6 +13,7 @@
     --secondary-font: roboto;
     --white-color: #fff;
     --yellow-color: #ffcb0f;
+    --yellow-color-service: #bf9108; 
     --purple-color: #1e0755;
     --light-blue: #0d75d4;
     --border-radius: 5px;
@@ -145,7 +146,7 @@ p{
 }
 
 .dbox p a, .contactForm .label{
-    color: var(--yellow-color) !important;
+    color: var(--yellow-color-service) !important;
 }
 
 

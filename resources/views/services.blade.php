@@ -156,7 +156,227 @@
 				</div>
         </div>
       </div>
-    </section>
+	</section>
+	
+
+		
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5">
+	  <div class="col-md-8 text-center heading-section ftco-animate">
+		<h2 class="mb-3">Life, Business and Booking Blueprints</h2>
+	  </div>
+	</div>
+			<div class="row tabulation mt-4 ftco-animate">
+			  <div class="col-md-4">
+					<ul class="nav nav-pills nav-fill d-md-flex d-block flex-column">
+					  <li class="nav-item text-left">
+						<a class="nav-link active py-4" data-toggle="tab" href="#services-2">Life Results Coaching</a>
+					  </li>
+					  <li class="nav-item text-left">
+						<a class="nav-link py-4" data-toggle="tab" href="#services-3">Corporate Results Coaching</a>
+					  </li>
+					  <li class="nav-item text-left">
+						<a class="nav-link py-4" data-toggle="tab" href="#services-4">Book Sammy </a>
+					  </li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<div class="tab-content">
+					  <div class="tab-pane container p-0 active" id="services-2">
+						  <h3><a href="#">Life Results Coaching</a></h3>
+						  <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="label" for="name">Full Name</label>
+										<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+									</div>
+								</div>
+								<div class="col-md-6"> 
+									<div class="form-group">
+										<label class="label" for="email">Email</label>
+										<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+									</div>
+								</div>
+	
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="phone">Phone Number</label>
+										<input type="text" class="form-control" name="phone" id="phone" placeholder="Phone Number">
+									</div>
+								</div>
+
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="occupation">Occupation</label>
+										<input type="text" class="form-control" name="occupation" id="occupation" placeholder="Occupation">
+									</div>
+								</div>
+
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="comment">Comment</label>
+										<textarea name="comment" class="form-control" id="comment" cols="30" rows="4" placeholder="Comment"></textarea>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<input type="submit" value="Send Message" class="btn btn-primary">
+										<div class="submitting"></div>
+									</div>
+								</div>
+							</div>
+						</form>
+					  </div>
+					  <div class="tab-pane container p-0 fade" id="services-3">
+						  <h3><a href="#">Corporate Results Coaching</a></h3>
+						  <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="label" for="name">Full Name</label>
+										<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+									</div>
+								</div>
+								<div class="col-md-6"> 
+									<div class="form-group">
+										<label class="label" for="email">Business Email</label>
+										<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="address">Business Address</label>
+										<input type="text" class="form-control" name="address" id="address" placeholder="Business Address">
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="phone">Busines Phone</label>
+										<input type="text" class="form-control" name="phone" id="phone" placeholder="Business Phone Number">
+									</div>
+								</div>
+								
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="sector">Sector</label>
+										<input type="text" class="form-control" name="sector" id="sector" placeholder="Sector">
+									</div>
+								</div>
+
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="occupation">Occupation</label>
+										<input type="text" class="form-control" name="occupation" id="occupation" placeholder="Occupation">
+									</div>
+								</div>
+
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="revenue">Yearly Revenue</label>
+										<input type="text" class="form-control" name="revenue" id="revenue" placeholder="Yearly Revenue">
+									</div>
+								</div>
+
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="employees">Number of Employees</label>
+										<input type="text" class="form-control" name="employees" id="employees" placeholder="employees">
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="comment">Comment</label>
+										<textarea name="comment" class="form-control" id="comment" cols="30" rows="4" placeholder="Comment"></textarea>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<input type="submit" value="Send Message" class="btn btn-primary">
+										<div class="submitting"></div>
+									</div>
+								</div>
+							</div>
+						</form>
+					  </div>
+					  <div class="tab-pane container p-0 fade" id="services-4">
+						  <h3><a href="#">Book Sammy</a></h3>
+						  <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label class="label" for="name">Full Name</label>
+										<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+									</div>
+								</div>
+								<div class="col-md-6"> 
+									<div class="form-group">
+										<label class="label" for="email">Business Email</label>
+										<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="address">Business Address</label>
+										<input type="text" class="form-control" name="address" id="address" placeholder="Business Address">
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="phone">Busines Phone</label>
+										<input type="text" class="form-control" name="phone" id="phone" placeholder="Business Phone Number">
+									</div>
+								</div>
+								
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="sector">Sector</label>
+										<input type="text" class="form-control" name="sector" id="sector" placeholder="Sector">
+									</div>
+								</div>
+
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="occupation">Occupation</label>
+										<input type="text" class="form-control" name="occupation" id="occupation" placeholder="Occupation">
+									</div>
+								</div>
+
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="revenue">Yearly Revenue</label>
+										<input type="text" class="form-control" name="revenue" id="revenue" placeholder="Yearly Revenue">
+									</div>
+								</div>
+
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="employees">Number of Employees</label>
+										<input type="text" class="form-control" name="employees" id="employees" placeholder="employees">
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<label class="label" for="comment">Comment</label>
+										<textarea name="comment" class="form-control" id="comment" cols="30" rows="4" placeholder="Comment"></textarea>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<input type="submit" value="Send Message" class="btn btn-primary">
+										<div class="submitting"></div>
+									</div>
+								</div>
+							</div>
+						</form>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
     <!--//service -->
 @include('layouts.footer')
   </body>
