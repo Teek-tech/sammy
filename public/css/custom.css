@@ -98,7 +98,7 @@ p{
 
 
 .testimony-section .overlay, .ftco-appointment .overlay, .hero-wrap.hero-wrap-2 .overlay{
-    background-color: var(--light-blue);
+    background-color: #1e0755;
     opacity: 60%;
 }
 
