@@ -86,15 +86,16 @@
 							<div class="row no-gutters">
 								<div class="col-md-7">
 									<div class="contact-wrap w-100 p-md-5 p-4">
+										<h3 class="mb-4">Contact Us</h3>
+										
 										@if (session('error'))
 											<div class="alert alert-solid alert-success" role="alert">
 												<button type="button" class="close" data-dismiss="alert" aria-label="close">
 													<span aria-hidden="true">&times;</span>
-													<strong>Success!</strong>{{session('error')}}.
+													<strong>Error!</strong>{{session('error')}}</strong>
 												</button>
 											</div>
 										@endif
-										<h3 class="mb-4">Contact Us</h3>
 									<form action="{{route('contact_sammy')}}" method="POST" id="contactForm" name="contactForm" class="contactForm">
 										@csrf
 											<div class="row">
