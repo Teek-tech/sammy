@@ -24,7 +24,7 @@ class ContactController extends Controller
             'message' => 'required|max:500'
         ]);
         if($validator->fails()){
-             return back()->with('success', 'Please fill in fields appropriately');
+             return back()->with('error', 'Please fill in fields appropriately');
            // return 'sorry!!!';
         }
         
@@ -51,7 +51,7 @@ class ContactController extends Controller
             'comment' => 'required|max:500'
         ]);
         if($validator->fails()){
-             return back()->with('success', 'Please fill in fields appropriately');
+             return back()->with('error', 'Please fill in fields appropriately');
            // return 'sorry!!!';
         }
         
@@ -82,7 +82,7 @@ class ContactController extends Controller
         ]);
         
         if($validator->fails()){
-             return back()->with('success', 'Please fill in fields appropriately');
+             return back()->with('error', 'Please fill in fields appropriately');
             //return 'sorry!!!';
         }
         
@@ -118,7 +118,7 @@ class ContactController extends Controller
         ]);
         
         if($validator->fails()){
-             return back()->with('success', 'Please fill in fields appropriately');
+             return back()->with('error', 'Please fill in fields appropriately');
             //return 'sorry!!!';
         }
         

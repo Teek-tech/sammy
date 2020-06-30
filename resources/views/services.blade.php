@@ -184,7 +184,16 @@
 				<div class="col-md-8">
 					<div class="tab-content">
 					  <div class="tab-pane container p-0 active" id="services-2">
-						  <h3><a href="#">Life Results Coaching</a></h3>
+						<h3><a href="#">Life Results Coaching</a></h3>
+
+						@if (session('success'))
+							<div class="alert alert-solid alert-success" role="alert">
+								<button type="button" class="close" data-dismiss="alert" aria-label="close">
+									<span aria-hidden="true">&times;</span>
+									<strong>Success!</strong>{{session('success')}}</strong>
+								</button>
+							</div>
+						@endif
 
 						  <form action="{{route('life.coaching')}}" method="POST" id="contactForm" name="contactForm" class="contactForm">
 							@csrf
