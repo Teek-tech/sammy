@@ -29,6 +29,10 @@ p{
     font-family: var(--secondary-font);
 }
 
+a.navbar-brand:hover{
+    color: var(--yellow-color) !important;
+}
+
 .ftco-navbar-light .navbar-toggler, .ftco-navbar-light.scrolled .navbar-toggler{
     color: var(--white-color) !important;
 }

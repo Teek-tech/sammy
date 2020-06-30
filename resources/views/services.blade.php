@@ -185,6 +185,7 @@
 					<div class="tab-content">
 					  <div class="tab-pane container p-0 active" id="services-2">
 						  <h3><a href="#">Life Results Coaching</a></h3>
+
 						  <form action="{{route('life.coaching')}}" method="POST" id="contactForm" name="contactForm" class="contactForm">
 							@csrf
 							<div class="row">
@@ -223,7 +224,7 @@
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<input type="submit" value="Send Message" class="btn btn-primary">
+										<input type="submit" value="Send Message" class="btn new-btn">
 										<div class="submitting"></div>
 									</div>
 								</div>
@@ -295,7 +296,7 @@
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<input type="submit" value="Send Message" class="btn btn-primary">
+										<input type="submit" value="Send Message" class="btn new-btn">
 										<div class="submitting"></div>
 									</div>
 								</div>
@@ -367,7 +368,7 @@
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<input type="submit" value="Send Message" class="btn btn-primary">
+										<input type="submit" value="Send Message" class="btn new-btn">
 										<div class="submitting"></div>
 									</div>
 								</div>
