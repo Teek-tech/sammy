@@ -136,6 +136,32 @@ p{
     background: var(--yellow-color);
 }
 
+/* motivational text area */
+.motivational-quote-area{
+    display: flex;
+    padding: 10px;
+    color: var(--white-color);
+
+}
+
+.quote-left{
+    display: flex;
+    align-items: flex-start;
+}
+
+.quote-right{
+    display: flex;
+    align-items: flex-end;
+}
+
+.motivational-quote-area span{
+    font-size: 3.5rem;
+}
+
+.motivational-quote-area p{
+    padding: 50px 10px 0 10px;
+}
+
 /* .heading-section h2{
     color: var(--yellow-color);
 } */
@@ -152,11 +178,15 @@ p{
 
 @media(min-width: 320px){
     .slider-text h1{
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     .slider-text h4{
         font-size: 1.2em;
+    }
+
+    .motivational-quote-area span{
+        font-size: 2rem;
     }
 }
 
@@ -168,6 +198,10 @@ p{
 
     .slider-text h4{
         font-size: 1.2em;
+    }
+
+    .motivational-quote-area span{
+        font-size: 2.5rem;
     }
 }
 
@@ -230,6 +264,10 @@ p{
     /* .ftco-navbar-light .navbar-nav > .nav-item.active > a, .ftco-nav .navbar-nav .nav-link a:hover{
         color: var(--white-color) !important;
     } */
+
+    .motivational-quote-area span{
+        font-size: 3.5rem;
+    }
 
 
     .navbar-nav .active .nav-link::after{

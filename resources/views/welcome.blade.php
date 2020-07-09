@@ -159,6 +159,43 @@
 			</div>
 		</section>
 
+		<!-- this area -->
+		<section class="ftco-appointment ftco-section img mt-5" style="background-image: url(images/bg_2.jpg);">
+			<div class="overlay" style="opacity: 70%"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="motivational-quote-area">
+							<div class="left-quote">
+								<span class="icon fa fa-quote-left"></span>
+							</div>
+							<p>
+								Welcome. I am both happy and honored that you are on my site. Whichever way you arrived here is important; more important is the that you are here, taking or exploring taking a bold step in the direction of your dreams. I acknowledge you for siding with the part of you that wants to move forward in creating a life you love living.
+								<br>
+								In this regard, I want to work with you creating and living a vision you are in love with. You will be designing your own life. You will be writing your own movie script in which you are the leading star; it is literally a new life and a new name that await you.
+								<br>
+								I also, have a mentor. She often says, “You cannot get to your dream, you must come from it.” My goal is to help you connect with your vision at the level where you begin to embody your goals.
+								<br>
+								You are probably aware of this Albert Einstein’s famous and oft repeated quote ‘No problem can be solved from the same level of consciousness that created it.’ Problems are solvable. They require we rise to a higher level of consciousness. That is what my Dream Building process will do for you through an installation of a new, higher paradigm than the one in which current challenges are created.
+								<br>
+								This is an opportunity for you to get in touch with your longing and discontent to help guide you to what you <i><strong>most genuinely want</strong></i> in your life.
+								<br> 
+								We are all without exception spiritual beings, each having a human experience. You can ordain and determine what and how you experience life.
+								<br>
+								And no matter your accomplishments, you are much more than you currently are: you are greater, wiser and stronger. A new life and a new name await you. It is the life <strong>you</strong> dream of.
+								You need a coach, we all do. Please fill the form below and schedule an appointment.
+							</p>
+							<div class="quote-right">
+								<span class="icon fa fa-quote-right"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+
 		<section class="ftco-section">
     	<div class="container">
     		<div class="row justify-content-center pb-5">

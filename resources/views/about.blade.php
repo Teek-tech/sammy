@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Sammy Badaki Consult | About</title>
    @include('layouts.header')
+   <title>Sammy Badaki Consult | About</title>
   </head>
   <body>
     @include('layouts.topnav')

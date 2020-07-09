@@ -33,6 +33,7 @@
       <li class="nav-item"><a href="{{route('about')}}" class="nav-link">About</a></li>
       <!--li class="nav-item"><a href="couselor.html" class="nav-link">Counselor</a></li-->
       <li class="nav-item"><a href="{{route('services')}}" class="nav-link">Services</a></li>
+      <li class="nav-item"><a href="{{route('testimonials')}}" class="nav-link">Testimonials</a></li>
       <!--li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li-->
       <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
       <li class="nav-item"><a href="{{route('contact')}}" class="nav-link">Contact</a></li>

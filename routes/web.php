@@ -28,6 +28,11 @@ Route::get('contact', function () {
 })->name('contact');
 
 
+Route::get('testimonials', function(){
+    return view('testimonial');
+})->name('testimonials');
+
+
 
 
 Route::post('contact', 'ContactController@index')->name('contact_sammy');
