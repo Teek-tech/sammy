@@ -36,6 +36,9 @@ Route::get('testimonials', function(){
 
 
 Route::post('contact', 'ContactController@index')->name('contact_sammy');
+Route::post('life-coach', 'ContactController@LifeCoaching')->name('life.coaching');
+Route::post('corporate-coach', 'ContactController@CorporateCoaching')->name('corporate.coaching');
+Route::post('book', 'ContactController@booking')->name('book.sammy');
 
 Auth::routes();
 

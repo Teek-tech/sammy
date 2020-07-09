@@ -86,34 +86,35 @@
 							<div class="row no-gutters">
 								<div class="col-md-7">
 									<div class="contact-wrap w-100 p-md-5 p-4">
+										<h3 class="mb-4">Contact Us</h3>
+										
 										@if (session('error'))
 											<div class="alert alert-solid alert-success" role="alert">
 												<button type="button" class="close" data-dismiss="alert" aria-label="close">
 													<span aria-hidden="true">&times;</span>
-													<strong>Success!</strong>{{session('error')}}.
+													<strong>Error!</strong>{{session('error')}}</strong>
 												</button>
 											</div>
 										@endif
-										<h3 class="mb-4">Contact Us</h3>
 									<form action="{{route('contact_sammy')}}" method="POST" id="contactForm" name="contactForm" class="contactForm">
 										@csrf
 											<div class="row">
 												<div class="col-md-6">
 													<div class="form-group">
 														<label class="label" for="name">Full Name</label>
-														<input type="text" class="form-control" name="full_name" id="name" placeholder="First Name & Last Name">
+														<input type="text" class="form-control" name="full_name" id="name" placeholder="First Name & Last Name" value="{{old('full_nmae')}}">
 													</div>
 												</div>
 												<div class="col-md-6"> 
 													<div class="form-group">
 														<label class="label" for="email">Email Address</label>
-														<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+														<input type="email" class="form-control" name="email" id="email" placeholder="Email" value="{{old('email')}}">
 													</div>
 												</div>
 												<div class="col-md-12">
 													<div class="form-group">
 														<label class="label" for="subject">Subject</label>
-														<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+														<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" value="{{old('subject')}}">
 													</div>
 												</div>
 												<div class="col-md-12">

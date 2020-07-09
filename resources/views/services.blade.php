@@ -184,13 +184,24 @@
 				<div class="col-md-8">
 					<div class="tab-content">
 					  <div class="tab-pane container p-0 active" id="services-2">
-						  <h3><a href="#">Life Results Coaching</a></h3>
-						  <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+						<h3><a href="#">Life Results Coaching</a></h3>
+
+						@if (session('success'))
+							<div class="alert alert-solid alert-success" role="alert">
+								<button type="button" class="close" data-dismiss="alert" aria-label="close">
+									<span aria-hidden="true">&times;</span>
+									<strong>Success!</strong>{{session('success')}}</strong>
+								</button>
+							</div>
+						@endif
+
+						  <form action="{{route('life.coaching')}}" method="POST" id="contactForm" name="contactForm" class="contactForm">
+							@csrf
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
 										<label class="label" for="name">Full Name</label>
-										<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+										<input type="text" class="form-control" name="full_name" id="name" placeholder="Name">
 									</div>
 								</div>
 								<div class="col-md-6"> 
@@ -222,7 +233,7 @@
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<input type="submit" value="Send Message" class="btn btn-primary">
+										<input type="submit" value="Send Message" class="btn new-btn">
 										<div class="submitting"></div>
 									</div>
 								</div>
@@ -231,12 +242,13 @@
 					  </div>
 					  <div class="tab-pane container p-0 fade" id="services-3">
 						  <h3><a href="#">Corporate Results Coaching</a></h3>
-						  <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+						  <form action="{{route('corporate.coaching')}}" method="POST" id="contactForm" name="contactForm" class="contactForm">
+							@csrf
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
 										<label class="label" for="name">Full Name</label>
-										<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+										<input type="text" class="form-control" name="full_name" id="full_name" placeholder="Name">
 									</div>
 								</div>
 								<div class="col-md-6"> 
@@ -254,7 +266,7 @@
 								<div class="col-md-12">
 									<div class="form-group">
 										<label class="label" for="phone">Busines Phone</label>
-										<input type="text" class="form-control" name="phone" id="phone" placeholder="Business Phone Number">
+										<input type="number" class="form-control" name="phone" id="phone" placeholder="Business Phone Number">
 									</div>
 								</div>
 								
@@ -275,14 +287,14 @@
 								<div class="col-md-12">
 									<div class="form-group">
 										<label class="label" for="revenue">Yearly Revenue</label>
-										<input type="text" class="form-control" name="revenue" id="revenue" placeholder="Yearly Revenue">
+										<input type="number" class="form-control" name="revenue" id="revenue" placeholder="Yearly Revenue">
 									</div>
 								</div>
 
 								<div class="col-md-12">
 									<div class="form-group">
 										<label class="label" for="employees">Number of Employees</label>
-										<input type="text" class="form-control" name="employees" id="employees" placeholder="employees">
+										<input type="number" class="form-control" name="employees" id="employees" placeholder="employees">
 									</div>
 								</div>
 								<div class="col-md-12">
@@ -293,7 +305,7 @@
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<input type="submit" value="Send Message" class="btn btn-primary">
+										<input type="submit" value="Send Message" class="btn new-btn">
 										<div class="submitting"></div>
 									</div>
 								</div>
@@ -302,12 +314,13 @@
 					  </div>
 					  <div class="tab-pane container p-0 fade" id="services-4">
 						  <h3><a href="#">Book Sammy</a></h3>
-						  <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+						  <form action="{{route('book.sammy')}}" method="POST" id="contactForm" name="contactForm" class="contactForm">
+							@csrf
 							<div class="row">
 								<div class="col-md-6">
 									<div class="form-group">
 										<label class="label" for="name">Full Name</label>
-										<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+										<input type="text" class="form-control" name="full_name" id="name" placeholder="Name">
 									</div>
 								</div>
 								<div class="col-md-6"> 
@@ -364,7 +377,7 @@
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<input type="submit" value="Send Message" class="btn btn-primary">
+										<input type="submit" value="Send Message" class="btn new-btn">
 										<div class="submitting"></div>
 									</div>
 								</div>
