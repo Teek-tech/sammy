@@ -7,18 +7,18 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class Contact extends Mailable
+class Testimonials extends Mailable
 {
     use Queueable, SerializesModels;
-    protected $admin;
+    protected $contact;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($admin)
+    public function __construct($contact)
     {
-        $this->admin = $admin;
+        $this->contact = $contact;
     }
 
     /**
@@ -28,6 +28,6 @@ class Contact extends Mailable
      */
     public function build()
     {
-        return $this->subject('New Contact Form.')->view('email.contact')->with(['admin' => $this->admin]);
+        return $this->subject('New Testimonials Form.')->view('email.testimonial')->with(['contact' => $this->contact]);
     }
 }

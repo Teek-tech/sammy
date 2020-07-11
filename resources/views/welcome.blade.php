@@ -176,7 +176,7 @@
 								<br>
 								I also, have a mentor. She often says, “You cannot get to your dream, you must come from it.” My goal is to help you connect with your vision at the level where you begin to embody your goals.
 								<br>
-								You are probably aware of this Albert Einstein’s famous and oft repeated quote ‘No problem can be solved from the same level of consciousness that created it.’ Problems are solvable. They require we rise to a higher level of consciousness. That is what my Dream Building process will do for you through an installation of a new, higher paradigm than the one in which current challenges are created.
+								You are probably aware of this Albert Einstein’s famous and often repeated quote ‘No problem can be solved from the same level of consciousness that created it.’ Problems are solvable. They require we rise to a higher level of consciousness. That is what my Dream Building process will do for you through an installation of a new, higher paradigm than the one in which current challenges are created.
 								<br>
 								This is an opportunity for you to get in touch with your longing and discontent to help guide you to what you <i><strong>most genuinely want</strong></i> in your life.
 								<br> 

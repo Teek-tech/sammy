@@ -32,6 +32,7 @@ Route::get('testimonials', function(){
     return view('testimonial');
 })->name('testimonials');
 
+Route::post('testimonials', 'ContactController@testimonials')->name('goodwill');
 
 
 

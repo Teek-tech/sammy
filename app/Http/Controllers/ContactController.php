@@ -12,6 +12,7 @@ use App\Mail\Contact as ContactAdmin;
 use App\Mail\LifeCoaching as LifeCoachingAdmin;
 use App\Mail\CorporateCoaching as CorporateCoachingAdmin;
 use App\Mail\BookSammy as BookAdmin;
+use App\Mail\Testimonials;
 use App\Contact;
 class ContactController extends Controller
 {
@@ -137,5 +138,31 @@ class ContactController extends Controller
 
        
             return back()->with('success', 'Please fill in fields appropriately');
+    }
+
+
+    public function testimonials(Request $request){
+        $validator = Validator::make($request->all(), [
+            'full_name' => 'required|max:25',
+            'email' => 'required',
+            'subject' => 'required|max:30',
+            'message' => 'required|max:500'
+        ]);
+        if($validator->fails()){
+             return back()->with('error', 'Please fill in fields appropriately');
+           // return 'sorry!!!';
+        }
+        
+            $contact = new Contact;
+            $contact->email= $request->input('email');
+            $contact->full_name = $request->input('full_name');
+            $contact->subject = $request->input('subject');
+            $contact->message = $request->input('message');
+            $admin_email = 'tochukwuodoeme@yahoo.com';
+            Mail::to($admin_email)->send(new Testimonials($contact));
+            //$contact->notify(new Testimonials($contact));
+
+       
+            return back()->with('success', 'Your message has been successfully sent!S');
     }
 }

@@ -41,7 +41,7 @@ class Contact extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->subject('New Contact Form')
+                    ->subject('SAMMY BADAKI')
                     ->greeting('Hello, '. $this->contact->full_name)
                     ->line('Your message was successfully delivered.')
                     ->line('You will be contacted shortly');

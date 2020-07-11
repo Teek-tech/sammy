@@ -29,14 +29,14 @@
 
   <div class="collapse navbar-collapse" id="ftco-nav">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active"><a href="{{route('welcome')}}" class="nav-link">Home</a></li>
-      <li class="nav-item"><a href="{{route('about')}}" class="nav-link">About</a></li>
+      <li class="nav-item {{ Request::is('/') ? 'active' : ''}}"><a href="{{route('welcome')}}" class="nav-link">Home</a></li>
+      <li class="nav-item {{ Request::is('about') ? 'active' : ''}}"><a href="{{route('about')}}" class="nav-link">About</a></li>
       <!--li class="nav-item"><a href="couselor.html" class="nav-link">Counselor</a></li-->
-      <li class="nav-item"><a href="{{route('services')}}" class="nav-link">Services</a></li>
-      <li class="nav-item"><a href="{{route('testimonials')}}" class="nav-link">Testimonials</a></li>
+      <li class="nav-item {{ Request::is('services') ? 'active' : ''}}"><a href="{{route('services')}}" class="nav-link">Services</a></li>
+      <li class="nav-item {{ Request::is('testimonials') ? 'active' : ''}}"><a href="{{route('testimonials')}}" class="nav-link">Testimonials</a></li>
       <!--li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li-->
-      <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-      <li class="nav-item"><a href="{{route('contact')}}" class="nav-link">Contact</a></li>
+      <li class="nav-item {{ Request::is('blog') ? 'active' : ''}}"><a href="#" class="nav-link">Blog</a></li>
+      <li class="nav-item {{ Request::is('contact') ? 'active' : ''}}"><a href="{{route('contact')}}" class="nav-link">Contact</a></li>
     </ul>
   </div>
 </div>

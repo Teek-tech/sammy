@@ -106,9 +106,17 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="ftco-animate py-5 px-2 mb-3">
+                        @if (session('success'))
+                        <div class="alert alert-success alert-dismissible">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <strong>Success!</strong> {{session('success')}}
+                          </div>
+						@endif
                         <h1 class="mb-3" style="text-align: center">We'd love to hear from you</h1>
                         <h4 style="text-align: center;">Share your experience with us</h4>
-                        <form action="#" method="POST" id="" name="" class="contactForm">
+                        <form action="{{route('goodwill')}}" method="POST" id="" name="" class="contactForm">
+                            @csrf
+                            @method('POST')
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
